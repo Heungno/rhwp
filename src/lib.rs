@@ -16,6 +16,9 @@ pub mod wmf;
 pub mod emf;
 pub mod ooxml_chart;
 
+pub mod hwp;
+pub mod hwp5;
+
 pub use document_core::DocumentCore;
 pub use error::HwpError;
 pub use model::event::DocumentEvent;
